@@ -1,0 +1,22 @@
+{
+  "name": "gmk-olive-theme",
+  "displayName": "GMK Olive Theme",
+  "description": "Color theme based on the GMK Olive keycap set",
+  "version": "0.0.1",
+  "publisher": "Chad",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GMK Olive Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GMK Olive Theme-color-theme.json"
+      }
+    ]
+  }
+}
